@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Local Deployment :rocket:
 
-## Getting Started
+Hi Everyone, The nexts steps are the guide to deploy locally the rick and morty application.
 
-First, run the development server:
+#### First Step
+
+Clone this repository in an specific directory:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone 'this repository url'
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Second Step
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Go to root project directory and run:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm i
+```
 
-## Learn More
+#### Third Step
 
-To learn more about Next.js, take a look at the following resources:
+Create in root project directory a .env file and define the next env variable:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+NEXT_PUBLIC_RICK_MORTY_API_URL=https://rickandmortyapi.com/api
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Fourth Step
 
-## Deploy on Vercel
+Run:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+  npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### App Previewer
+
+## ![App_Previewer](/public/images/app_previewer.png)
+
+---
+
+#### Tests :dart:
+
+Run:
+
+```bash
+  npm run test
+```
+
+## Technologies :hammer:
+
+:white_check_mark: Next Js v14 (App Router Feature)
+:white_check_mark: React
+:white_check_mark: Typescript
+:white_check_mark: Material UI
+:white_check_mark: CSS
+:white_check_mark: React Context API
+:white_check_mark: Vitest
+:white_check_mark: Axios

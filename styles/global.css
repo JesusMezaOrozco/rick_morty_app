@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("/images/rick_morty_bg.png");
+  backdrop-filter: brightness(30%);
+  background-size: cover;
+  height: 100vh;
+}
+
+.button-action {
+  background-color: #a31247;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.button-action:hover {
+  background-color: #e83375;
+  cursor: pointer;
+}
+
+.favorite-icon {
+  position: absolute;
+  right: 5px;
+  top: 200px;
+  z-index: 10;
+  color: #e83375;
+  width: 100px;
+  height: 100px;
+}
